@@ -1,0 +1,138 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border:0;
+}
+#logo-img {
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0px;
+}
+.navbar-brand {
+	padding-top: 25px;
+}
+	
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	font-size: 1.5em;
+	color: #557c3e;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.75;
+}
+
+.navbar-brand a:hover,.navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+}
+#nav-list a:hover {
+	color: #E7E7E7;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+#phone {
+	margin-top: 5px;
+}
+#phone a {
+	text-align: right;
+	padding-bottom: 0;
+}
+#phone div {
+	color: #557c3e;
+	text-align: right;
+	padding-right: 15px;
+}
+
+.jumbotron1 {
+	height: 25%;
+	width: 100%;
+}
+.row {
+	margin-top: 20px;
+	margin-left: 0;
+	margin-right: 0px;
+}
+#mn-tile {
+	
+	background-position: center;
+	background-size: 350px 200px;
+}
+#sp-tile {
+	background: url("C:\Users\Aditya\workspace\pizza\WebContent\images\p3.jpeg") no-repeat;
+	background-position: center;
+	background-size: 350px 200px;
+}
+
+#mn-tile span,#sp-tile span, #mp-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: 0.8;
+} 
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+	font-style: italic;
+}
+
+#mn-tile,#sp-tile, #mp-tile {
+	width: 100%;
+	height: 200px;
+	margin-bottom: 15px;
+	position: relative;
+	box-shadow: 0 0 50px #3F0C1F;
+	overflow: hidden; 
+	
+}
+#mn-tile:hover,#sp-tile:hover, #mp-tile:hover {
+	box-shadow: 0 1px 5px 1px #CCCCCC;
+}
+
+#p1,#p2,#p3 {
+	background-color: #f6b319;
+	width: 100%;
+	height: 400px;
+	margin-bottom: 15px;
+	position: relative;
+	box-shadow: 0 0 50px #3F0C1F;
+	overflow: hidden; 
+}
+
+.items img {
+	display: block;
+	margin: 0 auto;
+	padding-top: 20px;
+
+}
+
+.items .name {
+	text-align: center;
+	text-transform: uppercase;
+	color: #61122f;
+}
+
